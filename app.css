@@ -1,0 +1,52 @@
+.background {
+    display:flex;
+}
+
+.left {
+    height: 100vh;
+    width: 30vw;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.explain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    margin: 10px;
+}
+
+.boxes {
+    border-width: 1px;
+    border-color: black;
+    border-style: dashed;
+    margin: 5px;
+}
+
+.inputs {
+    display: flex;
+}
+
+.left-input {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.right-input {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.returning-user {
+    display: flex;
+}
+
+#create {
+    background-color: #596D48;
+    color: white;
+}
